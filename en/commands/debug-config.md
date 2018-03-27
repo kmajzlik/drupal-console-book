@@ -15,13 +15,13 @@ name | Configuration object name, for example "system.site".
 ## Examples
 * List all configuration object names.
 ```
-drupal config:debug
+drupal debug:config
 ```
 * Display system site configurations values.
 ```
-drupal config:debug system.site
+drupal debug:config system.site
 ```
 * List all system configuration names.
 ```
-drupal config:debug | grep system
+drupal debug:config | grep system
 ```
